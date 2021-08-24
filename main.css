@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #10100C;
+    overflow: hidden;
+}
+
+.herse {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 50%;
+    margin-top: -1%;
+    transform: translate(-50%, -1.5em);
+    z-index: 5 !important;
+}
+
+.banniere {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 0 !important;
+    z-index: 1;
+}
+
+.herse_down {
+    transform: translate(-50%, 0%) translateY(1%);
+    transition: 500ms;
+    transition-delay: 1s;
+}
+
+.herse_rise {
+    transform: translate(-50%, 0%) translateY(-90%);
+    transition: 3s;
+    transition-delay: 150ms;
+}
